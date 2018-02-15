@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HerculesRemoteControl", "HerculesRemoteControl\HerculesRemoteControl.vcxproj", "{C5BAAA97-0F64-4FC2-958E-B203ECBA235D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0043F742-1DEE-49FC-9DE3-7BA75D376EDE} = {0043F742-1DEE-49FC-9DE3-7BA75D376EDE}
+		{A5F3BA6C-8195-495A-BEA8-9F1F1C195532} = {A5F3BA6C-8195-495A-BEA8-9F1F1C195532}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IMLib", "IMLib\IMLib.vcxproj", "{0043F742-1DEE-49FC-9DE3-7BA75D376EDE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HerculesDLL", "HerculesDLL\HerculesDLL.vcxproj", "{145F9B7A-A20F-4D41-80B3-7E4BDF4BDD36}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libTIFF", "libTIFF\libTIFF.vcxproj", "{A5F3BA6C-8195-495A-BEA8-9F1F1C195532}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5BAAA97-0F64-4FC2-958E-B203ECBA235D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C5BAAA97-0F64-4FC2-958E-B203ECBA235D}.Debug|Win32.Build.0 = Debug|Win32
+		{C5BAAA97-0F64-4FC2-958E-B203ECBA235D}.Debug|x64.ActiveCfg = Debug|x64
+		{C5BAAA97-0F64-4FC2-958E-B203ECBA235D}.Release|Win32.ActiveCfg = Release|Win32
+		{C5BAAA97-0F64-4FC2-958E-B203ECBA235D}.Release|Win32.Build.0 = Release|Win32
+		{C5BAAA97-0F64-4FC2-958E-B203ECBA235D}.Release|x64.ActiveCfg = Release|Win32
+		{0043F742-1DEE-49FC-9DE3-7BA75D376EDE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0043F742-1DEE-49FC-9DE3-7BA75D376EDE}.Debug|Win32.Build.0 = Debug|Win32
+		{0043F742-1DEE-49FC-9DE3-7BA75D376EDE}.Debug|x64.ActiveCfg = Debug|x64
+		{0043F742-1DEE-49FC-9DE3-7BA75D376EDE}.Release|Win32.ActiveCfg = Release|Win32
+		{0043F742-1DEE-49FC-9DE3-7BA75D376EDE}.Release|Win32.Build.0 = Release|Win32
+		{0043F742-1DEE-49FC-9DE3-7BA75D376EDE}.Release|x64.ActiveCfg = Release|Win32
+		{145F9B7A-A20F-4D41-80B3-7E4BDF4BDD36}.Debug|Win32.ActiveCfg = Debug|Win32
+		{145F9B7A-A20F-4D41-80B3-7E4BDF4BDD36}.Debug|Win32.Build.0 = Debug|Win32
+		{145F9B7A-A20F-4D41-80B3-7E4BDF4BDD36}.Debug|x64.ActiveCfg = Debug|x64
+		{145F9B7A-A20F-4D41-80B3-7E4BDF4BDD36}.Release|Win32.ActiveCfg = Release|Win32
+		{145F9B7A-A20F-4D41-80B3-7E4BDF4BDD36}.Release|Win32.Build.0 = Release|Win32
+		{145F9B7A-A20F-4D41-80B3-7E4BDF4BDD36}.Release|x64.ActiveCfg = Release|Win32
+		{A5F3BA6C-8195-495A-BEA8-9F1F1C195532}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A5F3BA6C-8195-495A-BEA8-9F1F1C195532}.Debug|Win32.Build.0 = Debug|Win32
+		{A5F3BA6C-8195-495A-BEA8-9F1F1C195532}.Debug|x64.ActiveCfg = Debug|x64
+		{A5F3BA6C-8195-495A-BEA8-9F1F1C195532}.Debug|x64.Build.0 = Debug|x64
+		{A5F3BA6C-8195-495A-BEA8-9F1F1C195532}.Release|Win32.ActiveCfg = Release|Win32
+		{A5F3BA6C-8195-495A-BEA8-9F1F1C195532}.Release|Win32.Build.0 = Release|Win32
+		{A5F3BA6C-8195-495A-BEA8-9F1F1C195532}.Release|x64.ActiveCfg = Release|x64
+		{A5F3BA6C-8195-495A-BEA8-9F1F1C195532}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
